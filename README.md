@@ -3,7 +3,6 @@
 > A simple, responsive weather app built with Vanilla JavaScript.
 > Search any city worldwide and view current conditions and a 7-day forecast.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-3b82f6?style=for-the-badge)](https://hoale66p1.github.io/weather-dashboard/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -11,7 +10,7 @@
 
 ## Screenshots
 
-![Desktop](./screenshots/desktop.png)
+![Desktop](./screenshots.png)
 
 ## Features
 
