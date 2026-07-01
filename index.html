@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A simple weather dashboard — search any city, view current weather and 7-day forecast." />
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9B%85%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <main class="container">
+    <header class="app-header">
+      <h1 class="app-title">⛅ Weather Dashboard</h1>
+      <p class="app-subtitle">Search any city to see current weather and 7-day forecast</p>
+    </header>
+
+    <section class="search-section">
+      <form id="search-form" class="search-form" autocomplete="off">
+        <input
+          type="text"
+          id="city-input"
+          class="search-input"
+          placeholder="Enter city name (e.g. Hanoi, Tokyo, London)"
+          aria-label="City name"
+          required
+        />
+        <button type="submit" class="search-button" aria-label="Search">
+          Search
+        </button>
+      </form>
+
+      <div id="recent-section" class="recent-section" hidden>
+        <div class="recent-header">
+          <span class="recent-label">Recent:</span>
+          <button id="clear-history" type="button" class="clear-button">Clear history</button>
+        </div>
+        <div id="recent-chips" class="recent-chips"></div>
+      </div>
+    </section>
+
+    <section id="status" class="status-section" aria-live="polite"></section>
+
+    <section id="weather-section" class="weather-section" hidden>
+      <article id="current-weather" class="current-weather"></article>
+      <article class="forecast">
+        <h2 class="forecast-title">7-Day Forecast</h2>
+        <div id="forecast-list" class="forecast-list"></div>
+      </article>
+    </section>
+
+    <footer class="app-footer">
+      <p>
+        Data from
+        <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a>
+        · Built with Vanilla JavaScript
+      </p>
+    </footer>
+  </main>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
