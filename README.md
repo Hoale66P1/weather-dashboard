@@ -10,7 +10,7 @@
 
 ## Screenshots
 
-![Desktop](./screenshots.png)
+![Desktop](./screenshots/screenshots.png)
 
 ## Features
 
